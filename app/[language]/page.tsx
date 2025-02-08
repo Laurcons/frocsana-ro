@@ -11,7 +11,7 @@ export function generateStaticParams() {
   }));
 }
 
-export default async function Home({ params }: { params: { language: Lang } }) {
+export default async function Home({ params }: { params: Promise<{ language: Lang }> }) {
   const lang = (await params).language;
   return (
     <>
