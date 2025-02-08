@@ -23,7 +23,7 @@ export default function NameCard({ lang }: { lang: Lang }) {
               </div>
             </div>
             <img
-              className="mx-auto mb-5 h-[150] w-[150] rounded-full object-cover outline outline-2 outline-border md:mx-0"
+              className="mx-auto mb-5 h-[150px] w-[150px] rounded-full object-cover outline outline-2 outline-border md:mx-0"
               alt={t(L.person_name)}
               src={rocsi.src}
             />
