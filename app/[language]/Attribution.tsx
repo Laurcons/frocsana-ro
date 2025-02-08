@@ -11,7 +11,7 @@ export default function Attribution({ lang }: { lang: Lang }) {
 
   return (
     <>
-      <div className="mx-5 flex gap-1 align-baseline">
+      <div className="mx-5 flex flex-wrap gap-1 align-baseline">
         Made with <Heart /> by Laurentiu at{' '}
         <AppLink href="https://laurcons.ro" target="_blank" external>
           laurcons.ro
