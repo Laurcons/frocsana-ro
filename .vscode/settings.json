@@ -1,0 +1,6 @@
+{
+  "prettier.configPath": ".prettierrc",
+  "prettier.enable": true,
+  "prettier.prettierPath": "./node_modules/prettier",
+  "prettier.requireConfig": true
+}
