@@ -12,7 +12,7 @@ export default function NameCard({ lang }: { lang: Lang }) {
   const { t } = useLanguage(lang);
   return (
     <>
-      <div className="mt-3 px-3 md:sticky md:top-3 md:mt-10">
+      <div className="mt-3 px-3 lg:sticky lg:top-3 lg:mt-10">
         <Card className="relative">
           <CardContent className="flex flex-col-reverse justify-around py-5 md:flex-row">
             <div className="flex flex-col justify-around gap-2">
